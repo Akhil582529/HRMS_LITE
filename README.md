@@ -14,6 +14,7 @@ Tech Stack Used
 - React.js
 - Axios (API communication)
 - React Router (navigation)
+- Deploy: vercel - https://hrms-lite-2kg7liv5h-akhil-suryans-projects.vercel.app
 
 # Backend
 - Python
@@ -21,6 +22,7 @@ Tech Stack Used
 - SQLAlchemy (ORM)
 - Pydantic (Data validation)
 - Uvicorn (ASGI server)
+- Deploy : render - https://hrms-lite-backend-fk36.onrender.com
 
 # Database
 - MongoDB
