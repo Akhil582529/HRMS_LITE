@@ -8,7 +8,7 @@ const Dashboard = () => {
     const [employeeDetails, setEmployeeDetails] = useState([]);
     const [formShow, setFormShow] = useState(false);
 
-    const BASE_URL = "http://127.0.0.1:8000";
+    const BASE_URL = "http://127.0.0.https://hrms-lite-backend-fk36.onrender.com:8000";
 
     const fetchEmployees = async () => {
         try {
