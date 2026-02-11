@@ -1,0 +1,132 @@
+.attendance-container {
+    padding: 30px;
+    background-color: #f5f7fa;
+    min-height: 100vh;
+}
+
+.attendance-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.attendance-header h1 {
+    font-size: 28px;
+    color: #2c3e50;
+    margin: 0;
+}
+
+.date-selector {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.date-selector label {
+    font-size: 16px;
+    font-weight: 500;
+    color: #2c3e50;
+}
+
+.date-selector input[type="date"] {
+    padding: 10px 15px;
+    border: 2px solid #3498db;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.attendance-table {
+    width: 100%;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.attendance-table thead {
+    background-color: #3498db;
+    color: white;
+}
+
+.attendance-table th {
+    padding: 15px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.attendance-table tbody tr {
+    border-bottom: 1px solid #ecf0f1;
+}
+
+.attendance-table tbody tr:hover {
+    background-color: #f8f9fa;
+}
+
+.attendance-table td {
+    padding: 15px;
+    font-size: 14px;
+    color: #2c3e50;
+}
+
+.status-badge {
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.status-badge.present {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.status-badge.absent {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+.status-badge.unmarked {
+    background-color: #e2e3e5;
+    color: #6c757d;
+}
+
+.present-btn,
+.absent-btn {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    margin-right: 8px;
+    transition: all 0.3s ease;
+}
+
+.present-btn {
+    background-color: #28a745;
+    color: white;
+}
+
+.present-btn:hover:not(:disabled) {
+    background-color: #218838;
+}
+
+.absent-btn {
+    background-color: #dc3545;
+    color: white;
+}
+
+.absent-btn:hover:not(:disabled) {
+    background-color: #c82333;
+}
+
+.present-btn:disabled,
+.absent-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
